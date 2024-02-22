@@ -6,6 +6,7 @@ Name: Ibrahim Gustav Amany
 Student Number: 20230040077
 
 Study Program: Informatics Engineering
+
 -------------------------------------------
 Name: Wildan Fadillah
 
