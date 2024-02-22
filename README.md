@@ -9,6 +9,7 @@ Study Program: Informatics Engineering
 
 -------------------------------------------
 
+# Collaborators
 Name : Enjeli
 
 Student Number : 20230040058
