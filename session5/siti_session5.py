@@ -2,7 +2,6 @@ product = []
 price = []
 stock = []
 transaction = []
-association = dict(zip(product, price, stock))
 
 while True:
     print ("")
@@ -14,7 +13,7 @@ while True:
 
     if respond_menu == 1:
         new_product = input("Please enter the product's name: ") 
-        new_price = float(input("Please input the price, the final price will be calculated automatically (numbers only)"))
+        new_price = float(input("Please input the price, the final price will be calculated automatically (numbers only): "))
         new_stock = int(input("Please input the amount of stock of the product: "))
         final_price = new_price * 10/100 + new_price
         product.append (new_product)
@@ -25,8 +24,8 @@ while True:
     elif respond_menu == 2:
         print("Product registered:")
         for i in range(len(product)):
-            print(f"Product: {product[i]}, Price: {price[i]}, Stock: {stock[i]}")
             print ("")
+            print(f"Product: {product[i]}, Price: {price[i]}, Stock: {stock[i]}")
             print ("")
     
     elif respond_menu == 3:
